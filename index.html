@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link rel="stylesheet" href="css/style.css">
+    <h3>Fromularul de inregistrare a cititorului</h3>
+    <form>
+        <fieldset>
+            <legend>Date personale</legend>
+            <label>Numele,prenumle:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label>Data nasterii:</label>
+            <input type="date">
+            <br>
+            <br>
+            <label>Genul:</label>
+            M<input type="radio" name="gen" value="M">
+            F<input type="radio" name="gen" value="F">
+            <br>
+            <br>
+            <label>Regeunea:</label>
+            <select>
+                <option>Nord</option>
+                <option>Sud</option>
+                <option>Centru</option>
+
+            </select>
+            <br>
+            <label>Reguli pentru cititori:</label>
+            <textarea id="reguli" rows="4"cols="50">Accesul în bibliotecă este liber.Dacă doriți să accesați resurse ce nu sunt indicate,ne contactați.</textarea>
+            <br>
+            <br>
+            <lable for="accept">Acceptati regulile</lable>
+            <input type="checkbox" id="accept" name="accept">
+            <br>
+            <br>
+             <button>Inregistreaza</button>
+        </fieldset>
+    </form>
+</head>
+
+<body>
+
+</body>
+
+</html>
